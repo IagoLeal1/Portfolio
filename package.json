@@ -1,0 +1,9 @@
+{
+  "name": "room-homepage-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sass ./src/scss/style.scss:./public/css/style.css --watch --style compressed"
+  }
+}
