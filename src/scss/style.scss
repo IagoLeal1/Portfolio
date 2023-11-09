@@ -18,9 +18,7 @@
 body{
   border: 2px solid var(--sky400);
   border-radius: 20px;
-  width: 42.5rem;
-  display: grid;
-  grid-template-columns: 1;
+  max-width: 80rem;
   margin: 0 auto;
 
   font-family: 'Roboto', sans-serif;
@@ -40,15 +38,16 @@ body{
     justify-content: center;
     margin: 2rem;
     font-size: 1.5rem;
+    max-width: 80rem;
 
     img{
-      width: 20rem;
-      height: 20rem;
+      max-width: 20rem;
+      max-height: 20rem;
       border-radius: 50%;
       margin-bottom: 2rem;
       border: 10px solid var(--sky700);
     }
-    #log{
+    #text{
       color: var(--sky400);
     }
   }

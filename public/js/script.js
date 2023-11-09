@@ -1,4 +1,4 @@
-var div = document.getElementById('log');
+var div = document.getElementById('text');
 var textos = ['Web Developer', 'Full Stack Developer', 'Software Enginner' ];
 
 function escrever(str, done) {
@@ -38,7 +38,6 @@ function rodape(conteudos, el) {
     prox(prox);
 }
 rodape(textos);
-
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
